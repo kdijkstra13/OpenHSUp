@@ -1,0 +1,5 @@
+validation/CAM_XIMEACamVIS05458.png
+validation/CAM_XIMEACamVIS05755.png
+validation/CAM_XIMEACamVIS07167.png
+validation/CAM_XIMEACamVIS07180.png
+validation/CAM_XIMEACamVIS07262.png

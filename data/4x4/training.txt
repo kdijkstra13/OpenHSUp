@@ -1,0 +1,5 @@
+training/CAM_XIMEACamVIS04485.png
+training/CAM_XIMEACamVIS04575.png
+training/CAM_XIMEACamVIS06971.png
+training/CAM_XIMEACamVIS07087.png
+training/CAM_XIMEACamVIS07128.png
