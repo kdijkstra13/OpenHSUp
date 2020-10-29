@@ -1,4 +1,4 @@
-#Introduction
+##Introduction
 
 The HSUp (HyperSpectral Upscaling) repository contains a deep learning algorithm to perform hyperspectral upscaling and demosaicking of 
 multi-color-filter arrays (MCFA). This repository is the reference implementation of the paper: 
@@ -9,7 +9,7 @@ The original code has been ported from Caffe to PyTorch.
 p.s.
 The crosstalk correction has not been ported yet.  
 
-#Usage
+##Usage
 - The file **./train.py** can be executed with command line parameters.
 - Run **./train_hsup.py** for a demonstration:
     1. Images in ./data/4x4/training are used for training.
@@ -18,20 +18,20 @@ The crosstalk correction has not been ported yet.
     4. SSIM is calculated for the upscaled result.
 
 Result of the upscaling (mapped from 16-channel to RGB)\
-<img src="./data/output/example_upscale.jpg" alt="upscale" width="200px"/>
+<img src="https://github.com/kdijkstra13/OpenHSUp/blob/master/data/output/example_upscale.png" alt="upscale" width="200px"/>
 
 Result of the demosaicking (mapped from 16-channel to RGB)\
-<img src="./data/output/example_demosaick.jpg" alt="upscale" width="200px"/>
+<img src="https://github.com/kdijkstra13/OpenHSUp/blob/master/data/output/example_demosaick.png" alt="upscale" width="200px"/>
 
 Note:
 the images appear *very* dark in a normal .png viewing tool because 
 the images are displayed as 16 bit while the signal from the camera is only 10 bit.
 
-#Adding other mosaic patterns
+##Adding other mosaic patterns
 This repository is tested for a 4x4 mosaic.
 If other mosaic sizes need be handled please update the HSUp class in models.py.
 
-#Citing OpenHSUp
+##Citing OpenHSUp
 If this code benefits your research please cite:
 
 @article{dijkstra2019hyperspectral,\
@@ -45,7 +45,7 @@ If this code benefits your research please cite:
 &nbsp;&nbsp;publisher={Springer}\
 }
 
-#Copyright notice
+##Copyright notice
 Copyright (C) 2020 Klaas Dijkstra
 
 OpenHSUp is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
